@@ -1,6 +1,7 @@
 // Home Content
 
 .home {
+  .width();
   .intro {
     h2 {
       padding: 15px;
@@ -74,8 +75,8 @@
     @media @mobile {
       flex-direction: column-reverse;
       justify-content: center;
-      padding: 20px 0;
-      margin: 20px 0;
+      padding: 25px 0 0;
+      margin: 5px 0;
       width: 100%;
 
     }
@@ -157,9 +158,8 @@
 }
 
 .main-img {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 auto;
+  .width();
+  overflow: hidden;
     @media @mobile {
       width: 100%;
       overflow: hidden;

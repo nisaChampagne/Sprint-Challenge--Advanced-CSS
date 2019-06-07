@@ -155,6 +155,7 @@ body {
 }
 body {
   width: 100%;
+  padding: 0 auto;
   margin: 0 auto;
 }
 @media (max-width: 500px) {
@@ -211,13 +212,16 @@ nav a {
 }
 footer {
   color: #22283B;
-  background: #f4f4f4;
+  background: #F6F6F6;
   padding: 20px 0;
   border: 1px double #e0e0e0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home {
+  width: 100%;
 }
 .home .intro h2 {
   padding: 15px;
@@ -289,8 +293,8 @@ footer {
   .home .walk {
     flex-direction: column-reverse;
     justify-content: center;
-    padding: 20px 0;
-    margin: 20px 0;
+    padding: 25px 0 0;
+    margin: 5px 0;
     width: 100%;
   }
 }
@@ -376,8 +380,7 @@ footer {
 }
 .main-img {
   width: 100%;
-  margin: 0 auto;
-  padding: 0 auto;
+  overflow: hidden;
 }
 @media (max-width: 500px) {
   .main-img {

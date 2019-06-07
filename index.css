@@ -319,6 +319,7 @@ footer {
   }
 }
 .home .walk .btn:hover {
+  background-color: green;
   color: black;
 }
 .home .walk .walk-img {
@@ -393,6 +394,9 @@ body {
 * {
   box-sizing: border-box;
 }
+body {
+  font-size: 2.2rem;
+}
 input[type=text],
 select,
 textarea {
@@ -403,18 +407,21 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
+  font-size: 2.2rem;
   resize: vertical;
 }
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #22283A;
   color: white;
   padding: 12px 20px;
   border: none;
+  font-size: 1.9rem;
   border-radius: 4px;
   cursor: pointer;
 }
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: green;
+  color: black;
 }
 .container {
   border-radius: 5px;

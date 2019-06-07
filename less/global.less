@@ -5,11 +5,25 @@
 
 html {
   font-size: 62.5%;
+  margin: 0 auto;
+  max-width: 800px;
+    @media @mobile{
+      width: 100%;
+    }
 }
 
 html, body {
   font-family: 'Ubuntu', sans-serif;
   color: @main-font-color;
+}
+
+body{
+  width: 100%;
+  margin: 0 auto;
+    @media @mobile{
+      margin: 0 auto;
+      width: 100%;
+    }
 }
 
 h1, h2, h3, h4, h5 {

@@ -1,3 +1,19 @@
+
+
+1) -adaptive: is less flexible and only works on as many screens as it's layouts are able to.
+   -responsive: guaranteed to work well on any screen size.
+
+2) desktop-first: targets desktop users,feature rich, max-width used for layers.
+   mobile-first: designed for functionality, simple and clean, min-width used for layers.
+
+3) 62.5% font size is used for accessibility purposes.
+
+4) Preprocessing to me would be a way of neatly organizing your css and makes it easier to navigate. 
+
+5) -Favorite: Variables for the convenience.   
+   -Not a Fan: Parametric mixins are a little bothersome but they serve a purpose.
+
+
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.

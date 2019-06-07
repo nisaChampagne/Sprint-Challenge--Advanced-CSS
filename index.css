@@ -150,7 +150,7 @@ html {
 }
 html,
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #5E6164;
 }
 body {
@@ -169,7 +169,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   color: #23293B;
 }
 h2 {
@@ -272,6 +272,7 @@ footer {
     height: 100%;
     margin: 10px 0;
     padding: 5px 0;
+    padding-top: 15px;
   }
 }
 .home .visit-planets {
@@ -403,7 +404,7 @@ body {
 body {
   font-size: 1.8rem;
 }
-input[type=text],
+input[type="text"],
 select,
 textarea {
   width: 100%;
@@ -416,7 +417,7 @@ textarea {
   font-size: 1.8rem;
   resize: vertical;
 }
-input[type=submit] {
+input[type="submit"] {
   background-color: #22283A;
   color: white;
   padding: 12px 20px;
@@ -425,7 +426,7 @@ input[type=submit] {
   border-radius: 10px;
   cursor: pointer;
 }
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: green;
   color: black;
 }

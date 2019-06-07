@@ -181,6 +181,7 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+  color: #5E6164;
 }
 .container {
   max-width: 800px;
@@ -431,7 +432,6 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
-  padding: 20px;
 }
 .intro {
   width: 100%;

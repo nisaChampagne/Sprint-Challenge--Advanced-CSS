@@ -376,6 +376,8 @@ footer {
 }
 .main-img {
   width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
 }
 @media (max-width: 500px) {
   .main-img {
@@ -395,7 +397,7 @@ body {
   box-sizing: border-box;
 }
 body {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
 }
 input[type=text],
 select,
@@ -407,7 +409,7 @@ textarea {
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   resize: vertical;
 }
 input[type=submit] {
@@ -415,8 +417,8 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
-  font-size: 1.9rem;
-  border-radius: 4px;
+  font-size: 1.8rem;
+  border-radius: 10px;
   cursor: pointer;
 }
 input[type=submit]:hover {
@@ -427,4 +429,9 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+.intro {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
 }

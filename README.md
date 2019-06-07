@@ -1,5 +1,7 @@
 
 
+
+
 1) -adaptive: is less flexible and only works on as many screens as it's layouts are able to.
    -responsive: guaranteed to work well on any screen size.
 
@@ -12,6 +14,10 @@
 
 5) -Favorite: Variables for the convenience.   
    -Not a Fan: Parametric mixins are a little bothersome but they serve a purpose.
+
+
+
+
 
 
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page

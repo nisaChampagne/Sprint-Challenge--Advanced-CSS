@@ -1,15 +1,8 @@
-.button {
-  border: 2px solid #22283A;
-  background-color: #22283A;
-  color: white;
-  text-align: center;
-  font-size: 1.9rem;
-  padding: 5px 0 5px 0;
-  width: 30%;
-  border-radius: 5px;
-}
 .width {
   width: 100%;
+}
+.marginauto {
+  margin: 0 auto;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -301,13 +294,17 @@ footer {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  border: 2px solid teal;
+  border: 2px solid red;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     padding: 25px 0;
     font-size: 2.2rem;
   }
+}
+.home .walk .btn:hover {
+  background-color: green;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
@@ -342,6 +339,7 @@ footer {
   padding: 5px 0 5px 0;
   width: 30%;
   border-radius: 5px;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .btn {

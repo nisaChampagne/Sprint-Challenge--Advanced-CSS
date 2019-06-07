@@ -71,7 +71,7 @@
         margin: 20px 0;
         padding-right: 10px;
         padding-left: 10px;
-        width: 100%;
+        .width();
       }
 
       h3 {
@@ -83,7 +83,7 @@
       }
 
       .btn {
-        border: 2px solid teal;
+        border: 2px solid red;
           @media @mobile{
             padding: 25px 0;
             font-size: @text-mediumish;
@@ -106,7 +106,7 @@
         height: auto;
         border-radius: 10px;
         @media @mobile {
-          margin: 0 auto;
+          .margin();
           padding: 0 auto;
           width: 100%;
         }
@@ -116,7 +116,7 @@
 } // home
 
 .btn {
-  .button();
+  .button(30%);
   @media @mobile {
     margin: 0 auto;
     padding: 0 auto;
